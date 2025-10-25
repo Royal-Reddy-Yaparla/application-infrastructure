@@ -3,7 +3,7 @@ variable "cidr_block" {
 }
 
 variable "project" {
-  default = "logistics-mot"
+  default = "my-project"
 }
 
 variable "environment" {
