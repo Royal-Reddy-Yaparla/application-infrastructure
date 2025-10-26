@@ -1,5 +1,5 @@
 module "vpc" {
-  source              = "../../modules/VPC"
+  source              = "../modules/vpc"
   environment         = local.environment[terraform.workspace]
   project             = var.project
   vpc_cidr_block      = local.cidr_block[terraform.workspace]
